@@ -1,0 +1,26 @@
+@CHARSET "UTF-8";
+.tagchecklist span {
+	display:block;
+	float:left;
+	font-size:12px;
+	line-height:1.8em;
+	margin-right:25px;
+	white-space:nowrap;
+	text-indent: 13px;
+}
+.tagchecklist span a {
+	cursor:pointer;
+	display:block;
+	float:left;
+	width:10px;
+	height:10px;
+	margin:5px 0 0 0;
+	overflow:hidden;
+	position:absolute;
+}
+.tagchecklist span a{
+	background: transparent url(../images/xit.gif) 0 0 no-repeat;
+}
+.tagchecklist span a:hover {
+	background: transparent url(../images/xit.gif) -10px 0 no-repeat;
+}
